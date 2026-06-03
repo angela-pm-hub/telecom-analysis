@@ -1,6 +1,6 @@
 # telecom-analysis
 
-Este repositorio contiene el análisis realizado durante el Sprint 7 del caso ConnectaTel, donde se busca entender como los clientes usan los servicios móviles en una empresa de telecomunicaciones en México y Colombia.
+Este repositorio contiene el análisis realizado durante el Sprint 7 del caso ConnectaTel, donde se busca entender cómo los clientes usan los servicios móviles en una empresa de telecomunicaciones en México y Colombia.
 
 Los datasets utilizados presentan valores faltantes, sentinels, outliers y problemas de calidad diseñados para simular datos reales del comportamiento de uso de clientes.
 - plans.csv: los planes actuales (precio, minutos incluidos, GB incluidos, costo por extra).
@@ -10,7 +10,7 @@ Los datasets utilizados presentan valores faltantes, sentinels, outliers y probl
 ## 📂 Contenido del repositorio
 
 - `notebooks/telecom-analysis.ipynb`
-  1. Carga y emploración
+  1. Carga y exploración
   2. Identificación de problemas de calidad
   3. Limpieza de datos (reemplazo de sentinels, conversión de fechas, imputación de NA)
   4. Revisión de medidas clave (media, mediana, percentiles)
@@ -27,6 +27,6 @@ Los datasets utilizados presentan valores faltantes, sentinels, outliers y probl
 ## 🧠 Objetivo del análisis
 
 - Identificar problemas de calidad de datos
-- Construir un pipeline de limpieza reproducible
+- Aplicar reglas de limpieza de datos
 - Analizar comportamientos, distribuciones y outliers
 - Generar insights accionables para el negocio, enfocadas en segmentación, patrones de uso y oportunidades comerciales 
